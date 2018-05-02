@@ -1,0 +1,92 @@
+C:\Users\dc8125\source\repos\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\dc8125\source\repos\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\dc8125\source\repos\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\dc8125\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojResolveAssemblyReference.cache
+C:\Users\dc8125\source\repos\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\dc8125\source\repos\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\dc8125\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\dc8125\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\dc8125\source\repos\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\dc8125\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\dc8125\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\dc8125\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.Cache
+C:\Users\dc8125\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\dc8125\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\dc8125\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+D:\boop\WpfApp1\bin\Debug\WpfApp1.exe.config
+D:\boop\WpfApp1\bin\Debug\WpfApp1.exe
+D:\boop\WpfApp1\bin\Debug\WpfApp1.pdb
+D:\boop\WpfApp1\obj\Debug\WpfApp1.csprojResolveAssemblyReference.cache
+D:\boop\WpfApp1\obj\Debug\MainWindow.g.cs
+D:\boop\WpfApp1\obj\Debug\App.g.cs
+D:\boop\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+D:\boop\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+D:\boop\WpfApp1\obj\Debug\MainWindow.baml
+D:\boop\WpfApp1\obj\Debug\WpfApp1.g.resources
+D:\boop\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+D:\boop\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.Cache
+D:\boop\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+D:\boop\WpfApp1\obj\Debug\WpfApp1.exe
+D:\boop\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\ddc\Desktop\Nová složka\WpfApp1\obj\Debug\WpfApp1.csprojResolveAssemblyReference.cache
+C:\Users\ddc\Desktop\Nová složka\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\ddc\Desktop\Nová složka\WpfApp1\obj\Debug\App.g.cs
+C:\Users\ddc\Desktop\Nová složka\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\ddc\Desktop\Nová složka\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\ddc\Desktop\Nová složka\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\ddc\Desktop\Nová složka\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\ddc\Desktop\Nová složka\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\ddc\Desktop\Nová složka\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\ddc\Desktop\Nová složka\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\ddc\Desktop\Nová složka\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\ddc\Desktop\Nová složka\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\ddc\Desktop\Nová složka\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\ddc\Desktop\Nová složka\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\ddc\Desktop\Nová složka\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\03ach\Desktop\New folder\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\03ach\Desktop\New folder\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\03ach\Desktop\New folder\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\03ach\Desktop\New folder\WpfApp1\obj\Debug\WpfApp1.csprojResolveAssemblyReference.cache
+C:\Users\03ach\Desktop\New folder\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\03ach\Desktop\New folder\WpfApp1\obj\Debug\App.g.cs
+C:\Users\03ach\Desktop\New folder\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\03ach\Desktop\New folder\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\03ach\Desktop\New folder\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\03ach\Desktop\New folder\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\03ach\Desktop\New folder\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\03ach\Desktop\New folder\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\03ach\Desktop\New folder\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\03ach\Desktop\New folder\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\03ach\Desktop\New folder\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\Ondra\source\repos\boop-projekt-master\WpfApp1\obj\Debug\WpfApp1.csprojResolveAssemblyReference.cache
+C:\Users\Ondra\source\repos\boop-projekt-master\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\Ondra\source\repos\boop-projekt-master\WpfApp1\obj\Debug\Window1.g.cs
+C:\Users\Ondra\source\repos\boop-projekt-master\WpfApp1\obj\Debug\App.g.cs
+C:\Users\Ondra\source\repos\boop-projekt-master\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\Ondra\source\repos\boop-projekt-master\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\Ondra\source\repos\boop-projekt-master\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\Ondra\source\repos\boop-projekt-master\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\Ondra\source\repos\boop-projekt-master\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\Ondra\source\repos\boop-projekt-master\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\Ondra\source\repos\boop-projekt-master\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\Ondra\source\repos\boop-projekt-master\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\Ondra\source\repos\boop-projekt-master\WpfApp1\obj\Debug\Window1.baml
+C:\Users\Ondra\source\repos\boop-projekt-master\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\Ondra\source\repos\boop-projekt-master\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\Ondra\source\repos\boop-projekt-master\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.Cache
+C:\Users\Ondra\source\repos\boop-projekt-master\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\03ach\Downloads\boop-projekt-master\boop-projekt-master\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\03ach\Downloads\boop-projekt-master\boop-projekt-master\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\03ach\Downloads\boop-projekt-master\boop-projekt-master\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\03ach\Downloads\boop-projekt-master\boop-projekt-master\WpfApp1\obj\Debug\WpfApp1.csprojResolveAssemblyReference.cache
+C:\Users\03ach\Downloads\boop-projekt-master\boop-projekt-master\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\03ach\Downloads\boop-projekt-master\boop-projekt-master\WpfApp1\obj\Debug\App.g.cs
+C:\Users\03ach\Downloads\boop-projekt-master\boop-projekt-master\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\03ach\Downloads\boop-projekt-master\boop-projekt-master\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\03ach\Downloads\boop-projekt-master\boop-projekt-master\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\03ach\Downloads\boop-projekt-master\boop-projekt-master\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\03ach\Downloads\boop-projekt-master\boop-projekt-master\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\03ach\Downloads\boop-projekt-master\boop-projekt-master\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\03ach\Downloads\boop-projekt-master\boop-projekt-master\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\03ach\Downloads\boop-projekt-master\boop-projekt-master\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\03ach\Downloads\boop-projekt-master\boop-projekt-master\WpfApp1\obj\Debug\WpfApp1.pdb
