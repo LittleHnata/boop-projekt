@@ -21,8 +21,9 @@
             </Menu>
             <TextBox AcceptsReturn="True" />
         </DockPanel>
-        <Grid Name="grid2" Margin="264,60,114,35" Height="240" Width="364" RenderTransformOrigin="0,0" />
-        <Button Name="vypocti" Content="vypocti" HorizontalAlignment="Left" Height="27" Margin="75.333,258,0,0" VerticalAlignment="Top" Width="68" Click="vypocti_Click" Grid.Column="1"/>
+        <Label Name="vysledky" Height="301" VerticalAlignment="Bottom" Margin="633,18,0,0"/>
+        <Grid Name="grid2" Margin="191,18,114,10" RenderTransformOrigin="0,0" />
+        <Button Name="vypocti" Content="vypocti" HorizontalAlignment="Left" Height="27" Margin="46,258,0,0" VerticalAlignment="Top" Width="68" Click="vypocti_Click"/>
         <RadioButton Name="rad_f" Content="f0" IsChecked="True" Checked="RadioButton_Checked" Height="20" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,78,0,0" GroupName="prop"/>
         <RadioButton Name="rad_R" Content="R" Checked="RadioButton_Checked" Height="20" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,98,0,0"  GroupName="prop"/>
         <RadioButton Name="rad_C" Content="C" Checked="RadioButton_Checked" Height="20" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,118,0,0" GroupName="prop" />

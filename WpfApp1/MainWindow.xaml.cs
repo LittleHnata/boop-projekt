@@ -73,7 +73,9 @@ namespace WpfApp1
                         obv.setValueTB(RLC.TYPES.INDEX_C, obv.GetC());
                     }
                 }
-            }catch(Exception err)
+                vysledky.Content +="f: " + (grid2.Children[1] as TextBox).Text.ToString() + " Hz\nR:" + (grid2.Children[5] as TextBox).Text.ToString() + " Ω\nC:" + (grid2.Children[9] as TextBox).Text.ToString() + "uF\n--------------------------\n";
+            }
+            catch(Exception err)
             {
                 Console.Write(err);
             }
@@ -87,12 +89,14 @@ namespace WpfApp1
         {
             grid2.Children.Clear();
             front.makehor(grid2);
+            settextbox();
         }
 
         private void dolni_Click(object sender, RoutedEventArgs e)
         {
             grid2.Children.Clear();
             front.makedol(grid2);
+            settextbox();
         }
 
         private void log_Click(object sender, RoutedEventArgs e)
@@ -102,14 +106,19 @@ namespace WpfApp1
 
         private void RadioButton_Checked(object sender, RoutedEventArgs e)
         {
-            try { 
+            settextbox();
+        }
+        private void settextbox()
+        {
+            try
+            {
                 if ((Boolean)rad_f.IsChecked)
                 {
-              
+
                     (grid2.Children[1] as TextBox).IsEnabled = false;
                     (grid2.Children[5] as TextBox).IsEnabled = true;
                     (grid2.Children[9] as TextBox).IsEnabled = true;
-             
+
                 }
                 else
                 {
@@ -126,7 +135,7 @@ namespace WpfApp1
                         (grid2.Children[1] as TextBox).IsEnabled = true;
                         (grid2.Children[5] as TextBox).IsEnabled = true;
                         (grid2.Children[9] as TextBox).IsEnabled = false;
-                    }   
+                    }
                 }
             }
             catch (Exception err)
