@@ -10,13 +10,6 @@
     <Grid Name="grid">
         <DockPanel>
             <Menu DockPanel.Dock="Top" IsMainMenu="True">
-                <MenuItem Header="_File" >
-                    <MenuItem Header="_New" Name="new" Click="new_Click"/>
-                    <MenuItem Header="_Open" Name="open" Click="open_Click"/>
-                    <MenuItem Header="_Save" Name="save" Click="save_Click"/>
-                    <Separator />
-                    <MenuItem Header="_Exit" Name="exit" Click="exit_Click"/>
-                </MenuItem>
                 <MenuItem Header="_Filter">
                     <MenuItem Header="_Horni propust" Name="horni" Click="horni_Click"/>
                     <MenuItem Header="_Dolni propust" Name="dolni" Click="dolni_Click"/>
@@ -24,6 +17,7 @@
                 <MenuItem Header="_Log">
                     <MenuItem Header="Show Log" Name="log" Click="log_Click"/>
                 </MenuItem>
+                <MenuItem Header="_Konec" Name="konec" Click="exit_Click"/>
             </Menu>
             <TextBox AcceptsReturn="True" />
         </DockPanel>

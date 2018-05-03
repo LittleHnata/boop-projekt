@@ -31,7 +31,7 @@ namespace WpfApp1
             RLC obv = new RLC(grid2);
             try
             {
-                if (!(grid2.Children[1] as TextBox).IsEnabled)
+                if ((Boolean)rad_f.IsChecked)
                 {
                     try
                     {
@@ -44,53 +44,40 @@ namespace WpfApp1
 
                     obv.setValueTB(RLC.TYPES.INDEX_F, obv.GetF());
                 }
-                if (!(grid2.Children[5] as TextBox).IsEnabled)
+                else
                 {
-                    try
+                    if ((Boolean)rad_R.IsChecked)
                     {
-                        obv.Initialize();
-                    }
-                    catch (InvalidValueException ex)
-                    {
-                        Console.WriteLine("Nesprávná hodnota: " + ex);
-                    }
+                        try
+                        {
+                            obv.Initialize();
+                        }
+                        catch (InvalidValueException ex)
+                        {
+                            Console.WriteLine("Nesprávná hodnota: " + ex);
+                        }
 
-                    obv.setValueTB(RLC.TYPES.INDEX_R, obv.GetR());
-                }
-                if (!(grid2.Children[9] as TextBox).IsEnabled)
-                {
-                    try
-                    {
-                        obv.Initialize();
+                        obv.setValueTB(RLC.TYPES.INDEX_R, obv.GetR());
                     }
-                    catch (InvalidValueException ex)
+                    else
                     {
-                        Console.WriteLine("Nesprávná hodnota: " + ex);
-                    }
+                        try
+                        {
+                            obv.Initialize();
+                        }
+                        catch (InvalidValueException ex)
+                        {
+                            Console.WriteLine("Nesprávná hodnota: " + ex);
+                        }
 
-                    obv.setValueTB(RLC.TYPES.INDEX_C, obv.GetC());
+                        obv.setValueTB(RLC.TYPES.INDEX_C, obv.GetC());
+                    }
                 }
             }catch(Exception err)
             {
                 Console.Write(err);
             }
         }
-
-        private void new_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void open_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void save_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-  
         private void exit_Click(object sender, RoutedEventArgs e)
         {
             Close();
@@ -116,30 +103,30 @@ namespace WpfApp1
         private void RadioButton_Checked(object sender, RoutedEventArgs e)
         {
             try { 
-            if ((Boolean)rad_f.IsChecked)
-            {
+                if ((Boolean)rad_f.IsChecked)
+                {
               
-                 (grid2.Children[1] as TextBox).IsEnabled = false;
+                    (grid2.Children[1] as TextBox).IsEnabled = false;
                     (grid2.Children[5] as TextBox).IsEnabled = true;
                     (grid2.Children[9] as TextBox).IsEnabled = true;
              
-            }
-            else
-            {
-                if ((Boolean)rad_R.IsChecked)
+                }
+                else
                 {
-                   
+                    if ((Boolean)rad_R.IsChecked)
+                    {
+
                         (grid2.Children[1] as TextBox).IsEnabled = true;
                         (grid2.Children[5] as TextBox).IsEnabled = false;
                         (grid2.Children[9] as TextBox).IsEnabled = true;
-                   
-                }
-                else { 
+
+                    }
+                    else
+                    {
                         (grid2.Children[1] as TextBox).IsEnabled = true;
                         (grid2.Children[5] as TextBox).IsEnabled = true;
                         (grid2.Children[9] as TextBox).IsEnabled = false;
-                    }
-                   
+                    }   
                 }
             }
             catch (Exception err)
