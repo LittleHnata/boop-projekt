@@ -74,7 +74,7 @@ namespace WpfApp1
                         obv.setValueTB(RLC.TYPES.INDEX_C, obv.GetC());
                     }
                 }
-                vysledky.Content +="f: " + (grid2.Children[1] as TextBox).Text.ToString() + " Hz\nR:" + (grid2.Children[5] as TextBox).Text.ToString() + " Ω\nC:" + (grid2.Children[9] as TextBox).Text.ToString() + "uF\n--------------------------\n";
+                vysledky.Text +="f: " + Math.Round( double.Parse((grid2.Children[1] as TextBox).Text),2 )+ " Hz\nR:" + Math.Round(double.Parse((grid2.Children[5] as TextBox).Text), 2) + " Ω\nC:" + Math.Round(double.Parse((grid2.Children[9] as TextBox).Text)*1E6, 2) + "uF\n--------------------------\n";
             }
             catch(Exception err)
             {
@@ -143,6 +143,11 @@ namespace WpfApp1
             {
                 Console.Write(err);
             }
+        }
+
+        private void vysledky_Scroll(object sender, System.Windows.Controls.Primitives.ScrollEventArgs e)
+        {
+
         }
     }
          
