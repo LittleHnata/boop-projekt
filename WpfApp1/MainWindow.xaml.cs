@@ -115,48 +115,38 @@ namespace WpfApp1
 
         private void RadioButton_Checked(object sender, RoutedEventArgs e)
         {
+            try { 
             if ((Boolean)rad_f.IsChecked)
             {
-                try
-                {
-                    (grid2.Children[1] as TextBox).IsEnabled = false;
+              
+                 (grid2.Children[1] as TextBox).IsEnabled = false;
                     (grid2.Children[5] as TextBox).IsEnabled = true;
                     (grid2.Children[9] as TextBox).IsEnabled = true;
-                }
-                catch (Exception err)
-                {
-                    Console.Write(err);
-                }
+             
             }
             else
             {
                 if ((Boolean)rad_R.IsChecked)
                 {
-                    try
-                    {
+                   
                         (grid2.Children[1] as TextBox).IsEnabled = true;
                         (grid2.Children[5] as TextBox).IsEnabled = false;
                         (grid2.Children[9] as TextBox).IsEnabled = true;
-                    }
-                    catch (Exception err)
-                    {
-                        Console.Write(err);
-                    }
+                   
                 }
-                if ((Boolean)rad_C.IsChecked)
-                {
-                    try
-                    {
+                else { 
                         (grid2.Children[1] as TextBox).IsEnabled = true;
                         (grid2.Children[5] as TextBox).IsEnabled = true;
                         (grid2.Children[9] as TextBox).IsEnabled = false;
                     }
-                    catch (Exception err)
-                    {
-                        Console.Write(err);
-                    }
+                   
                 }
+            }
+            catch (Exception err)
+            {
+                Console.Write(err);
             }
         }
     }
+         
 }
