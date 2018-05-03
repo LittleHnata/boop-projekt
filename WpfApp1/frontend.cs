@@ -124,10 +124,13 @@ namespace WpfApp1
             createline(150, 275, 62.5, 62.5, grid);
             createline(212.5, 212.5, 62.5, 115, grid);
             createlabel(130, 105, "label2", "C:", grid);
-            createtext(150, 105, "C", grid);
+            createtext(149, 105, "C", grid);
             createC(200,115,false,grid);
             createline(212.5, 212.5, 125, 175, grid);
             createline(50, 275, 175, 175, grid);
+            createlabel(150, 25, "lbl1", "Ω", grid);
+            createlabel(105, 100, "lbl2", "Hz", grid);
+            createlabel(150, 125, "lbl3", "F", grid);
         }
         public void makehor(Grid grid)
         {
@@ -135,7 +138,7 @@ namespace WpfApp1
             createtext(55, 100, "f", grid);
             createline(50, 125, 62.5, 62.5, grid);
             createC(125, 50, true, grid);
-            createtext(150, 105, "R", grid);
+            createtext(149, 105, "R", grid);
             createlabel(75, 25, "label1", "C:", grid);
             createline(135, 275, 62.5, 62.5, grid);
             createline(212.5, 212.5, 62.5, 100, grid);
@@ -144,6 +147,9 @@ namespace WpfApp1
             createR(200, 100, false, grid);
             createline(212.5, 212.5, 150, 175, grid);
             createline(50, 275, 175, 175, grid);
+            createlabel(150, 25, "lbl1", "F", grid);
+            createlabel(105, 100, "lbl2", "Hz", grid);
+            createlabel(150, 125, "lbl3", "Ω", grid);
         }
     }
     
