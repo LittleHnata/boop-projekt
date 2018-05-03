@@ -29,17 +29,51 @@ namespace WpfApp1
         private void vypocti_Click(object sender, RoutedEventArgs e)
         {
             RLC obv = new RLC(grid2);
-
             try
             {
-                obv.Initialize();
-            }
-            catch(InvalidValueException ex)
-            {
-                Console.WriteLine("Nesprávná hodnota: " + ex);
-            }
+                if (!(grid2.Children[1] as TextBox).IsEnabled)
+                {
+                    try
+                    {
+                        obv.Initialize();
+                    }
+                    catch (InvalidValueException ex)
+                    {
+                        Console.WriteLine("Nesprávná hodnota: " + ex);
+                    }
 
-            obv.setValueTB(RLC.TYPES.INDEX_C, obv.GetC());
+                    obv.setValueTB(RLC.TYPES.INDEX_F, obv.GetF());
+                }
+                if (!(grid2.Children[5] as TextBox).IsEnabled)
+                {
+                    try
+                    {
+                        obv.Initialize();
+                    }
+                    catch (InvalidValueException ex)
+                    {
+                        Console.WriteLine("Nesprávná hodnota: " + ex);
+                    }
+
+                    obv.setValueTB(RLC.TYPES.INDEX_R, obv.GetR());
+                }
+                if (!(grid2.Children[9] as TextBox).IsEnabled)
+                {
+                    try
+                    {
+                        obv.Initialize();
+                    }
+                    catch (InvalidValueException ex)
+                    {
+                        Console.WriteLine("Nesprávná hodnota: " + ex);
+                    }
+
+                    obv.setValueTB(RLC.TYPES.INDEX_C, obv.GetC());
+                }
+            }catch(Exception err)
+            {
+                Console.Write(err);
+            }
         }
 
         private void new_Click(object sender, RoutedEventArgs e)
@@ -77,6 +111,52 @@ namespace WpfApp1
         private void log_Click(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void RadioButton_Checked(object sender, RoutedEventArgs e)
+        {
+            if ((Boolean)rad_f.IsChecked)
+            {
+                try
+                {
+                    (grid2.Children[1] as TextBox).IsEnabled = false;
+                    (grid2.Children[5] as TextBox).IsEnabled = true;
+                    (grid2.Children[9] as TextBox).IsEnabled = true;
+                }
+                catch (Exception err)
+                {
+                    Console.Write(err);
+                }
+            }
+            else
+            {
+                if ((Boolean)rad_R.IsChecked)
+                {
+                    try
+                    {
+                        (grid2.Children[1] as TextBox).IsEnabled = true;
+                        (grid2.Children[5] as TextBox).IsEnabled = false;
+                        (grid2.Children[9] as TextBox).IsEnabled = true;
+                    }
+                    catch (Exception err)
+                    {
+                        Console.Write(err);
+                    }
+                }
+                if ((Boolean)rad_C.IsChecked)
+                {
+                    try
+                    {
+                        (grid2.Children[1] as TextBox).IsEnabled = true;
+                        (grid2.Children[5] as TextBox).IsEnabled = true;
+                        (grid2.Children[9] as TextBox).IsEnabled = false;
+                    }
+                    catch (Exception err)
+                    {
+                        Console.Write(err);
+                    }
+                }
+            }
         }
     }
 }
