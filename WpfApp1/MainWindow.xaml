@@ -19,9 +19,9 @@
                 </MenuItem>
                 <MenuItem Header="_Konec" Name="konec" Click="exit_Click"/>
             </Menu>
-            <TextBox AcceptsReturn="True" />
+            <TextBox AcceptsReturn="True" IsEnabled="False" />
         </DockPanel>
-        <Label Name="vysledky" Height="301" VerticalAlignment="Bottom" Margin="633,18,0,0"/>
+        <Label Name="vysledky" Height="301" VerticalAlignment="Bottom" Margin="633,0,0,0"/>
         <Grid Name="grid2" Margin="191,18,114,10" RenderTransformOrigin="0,0" />
         <Button Name="vypocti" Content="vypocti" HorizontalAlignment="Left" Height="27" Margin="46,258,0,0" VerticalAlignment="Top" Width="68" Click="vypocti_Click"/>
         <RadioButton Name="rad_f" Content="f0" IsChecked="True" Checked="RadioButton_Checked" Height="20" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,78,0,0" GroupName="prop"/>

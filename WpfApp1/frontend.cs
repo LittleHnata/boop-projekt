@@ -97,6 +97,7 @@ namespace WpfApp1
             t.Height = 25;
             t.HorizontalAlignment = HorizontalAlignment.Left;
             t.VerticalAlignment = VerticalAlignment.Top;
+            t.IsEnabled = false;
             t.Margin = new Thickness(x, y, 0, 0);
             grid.Children.Add(t);
         }
@@ -112,7 +113,7 @@ namespace WpfApp1
             l.Margin = new Thickness(x, y, 0, 0);
             grid.Children.Add(l);
         }
-        public void makehor(Grid grid)
+        public void makedol(Grid grid)
         {
             createlabel(30, 100, "label3", "f:", grid);
             createtext(55, 100, "f", grid);
@@ -128,7 +129,7 @@ namespace WpfApp1
             createline(212.5, 212.5, 125, 175, grid);
             createline(50, 275, 175, 175, grid);
         }
-        public void makedol(Grid grid)
+        public void makehor(Grid grid)
         {
             createlabel(30, 100, "label3", "f:", grid);
             createtext(55, 100, "f", grid);

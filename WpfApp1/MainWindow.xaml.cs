@@ -25,6 +25,7 @@ namespace WpfApp1
         public MainWindow()
         {
             InitializeComponent();
+            dolni_Click(null, null);
         }
         private void vypocti_Click(object sender, RoutedEventArgs e)
         {
